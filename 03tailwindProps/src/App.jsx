@@ -22,6 +22,9 @@ function App() {
       <Card1 imgUrl={randomimg()}  />
       <Card1 imgUrl={randomimg()} link="dynamic change"/>
       <Card1 imgUrl={randomimg()} views = {200} />
+      <Card1 imgUrl={randomimg()} views = {200} link="vivek"/>
+      <Card1 imgUrl={randomimg()} link="dynamic change"/>
+      <Card1 imgUrl={randomimg()} views = {200} link="vivek"/>
     </div>
    
     </>

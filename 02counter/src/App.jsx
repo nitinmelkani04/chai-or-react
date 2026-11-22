@@ -11,8 +11,10 @@ function App() {
     if(counter>=5){
       // counter = 0
       setCounter(counter = 0)
-    }else setCounter(counter+1) 
-    // console.log(counter+1);
+    }else {
+      setCounter((pcounter) => pcounter+1)
+      setCounter((counter) => counter+1)
+    }  // console.log(counter+1);
   }
   const decreseval = ()=>{
     if(counter<=0){
